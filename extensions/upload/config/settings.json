@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+    "cloud_name": "mizrach2021",
+    "api_key": "419864532915323",
+    "api_secret": "xlTe9yOAxpQsL7t9m3Ek0j5WBG4"
+    }
+}
