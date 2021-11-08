@@ -15,18 +15,18 @@
     "pg-connection-string": "^2.5.0",
     "slugify": "^1.6.0",
     "sqlite3": "5.0.0",
-    "strapi": "3.6.5",
-    "strapi-admin": "^3.6.8",
+    "strapi": "^3.6.8",
+    "strapi-admin": "^3.0.6",
     "strapi-connector-bookshelf": "3.6.5",
     "strapi-plugin-content-manager": "^3.6.8",
     "strapi-plugin-content-type-builder": "^3.6.8",
     "strapi-plugin-email": "3.6.5",
     "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "^3.6.8",
-    "strapi-plugin-upload": "^3.6.8",
+    "strapi-plugin-upload": "^0.0.0",
     "strapi-plugin-users-permissions": "^3.6.8",
     "strapi-provider-upload-aws-s3": "^3.6.8",
-    "strapi-provider-upload-cloudinary": "^3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.1.4",
     "strapi-utils": "^3.6.5"
   },
   "author": {
@@ -39,5 +39,8 @@
     "node": "14.17.0",
     "npm": "6.14.13"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
